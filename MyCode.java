@@ -264,31 +264,25 @@ class MyCode{
 
 
 // pattren
-// class MyCode{
-//     public static void main(String arg[])   
-//     {
-//         int i, n, j;
+class MyCode{
+    public static void main(String arg[])   
+    {
+        int i, n, j;
 
-//         n= Integer.valueOf(arg[0]);
-//         i= 1;
-//         j= 1;
+        n= Integer.valueOf(arg[0]);
+        i= 1;
+        j= 1;
         
-//        for (i=1;i<=n;i++) {
+       for (i=1;i<=n;i++) {
 
-//             for (j=1;j<=n;j++) {
+            for (j=2;j<=i;j+=2) {
                 
-//                 if (j%2==0) {
-//                     System.out.print(" "+j); 
-//                 }
-                
-                
-                
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
-
+                    System.out.print(" "+j);              
+            }
+            System.out.println();
+        }
+    }
+}
 
 
 
@@ -339,10 +333,7 @@ class MyCode{
 
             for (j=1;j<=i;j++) {
                 
-                    System.out.print(" "+i*2);
-                     
-                
-                
+                    System.out.print(" "+i*2); 
                 
             }
             System.out.println();
@@ -412,7 +403,7 @@ n=Integer.parseInt(in.readLine());
 
 
 /*
-    *
+     *
     ***
    *****
   *******
