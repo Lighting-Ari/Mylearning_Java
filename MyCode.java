@@ -308,7 +308,7 @@
 // 8888
 // 1010101010
 // 121212121212
-class MyCode{
+/*class MyCode{
     public static void main(String arg[])   
     {
         int i, n, j;
@@ -329,7 +329,7 @@ class MyCode{
             System.out.println();
         }
     }
-}
+}*/
 
 
 /*
@@ -390,3 +390,38 @@ n=Integer.parseInt(in.readLine());
     }
 }
     */
+
+
+/*
+    *
+    ***
+   *****
+  *******
+ *********
+
+
+    import java.io.DataInputStream;
+    class MyCode{
+        public static void main(String arg[])  throws Exception 
+        {
+            int i, n, j,s;
+    DataInputStream in=new DataInputStream(System.in);
+          
+    System.out.println("enter the number");
+    n=Integer.parseInt(in.readLine());
+            
+
+
+           for (i=1;i<=n;i++) {
+                for (j=1;j<=n-i;j++) // for priting space
+                        System.out.print(" ");
+
+                for(s=1;s<=(2*i-1);s++) // Printing stars
+                System.out.print("*");    
+
+                System.out.println();
+            }
+        }
+    }
+
+     */
