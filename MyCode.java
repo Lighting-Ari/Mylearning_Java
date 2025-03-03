@@ -126,7 +126,7 @@
 
 
 // //  Factorial of a number 
-// // Sum of divisor of a number 
+// // Sum of divisor of a number  
 // class MyCode{
 //     public static void main(String arg[])
 //     {
