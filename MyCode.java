@@ -351,6 +351,15 @@
         }
     }
 }*/
+
+
+/*
+1
+12
+123
+1234
+12345
+ 
 import java.io.DataInputStream;
 class MyCode{
     public static void main(String arg[])  throws Exception 
@@ -373,3 +382,4 @@ n=Integer.parseInt(in.readLine());
         }
     }
 }
+    */
