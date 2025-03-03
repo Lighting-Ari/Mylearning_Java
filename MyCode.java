@@ -219,8 +219,6 @@ class MyCode{
         int i, n, j;
 
         n= Integer.valueOf(arg[0]);
-        i= 1;
-        j= 1;
         
        for (i=1;i<=n;i++) {
 
@@ -236,25 +234,25 @@ class MyCode{
      */
  
 
-// // pattren
-// class MyCode{
-//     public static void main(String arg[])
-//     {
-//         int i, n, j;
+// pattren
+class MyCode{
+    public static void main(String arg[])
+    {
+        int i, n, j;
 
-//         n= Integer.valueOf(arg[0]);
-//         i= 1;
-//         j= 1;
+        n= Integer.valueOf(arg[0]);
+        i= 1;
+        j= 1;
         
-//        for (i=1;i<=n;i++) {
+       for (i=1;i<=n;i++) {
 
-//             for (j=1;j<=i;j++) {
-//                 System.out.print("*");             
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
+            for (j=1;j<=i;j++) {
+                System.out.print("*");             
+            }
+            System.out.println();
+        }
+    }
+}
 
 
 
