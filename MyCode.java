@@ -308,7 +308,7 @@
 // 8888
 // 1010101010
 // 121212121212
-/*class MyCode{
+class MyCode{
     public static void main(String arg[])   
     {
         int i, n, j;
@@ -330,9 +330,15 @@
         }
     }
 }
-*/
 
-/*class MyCode{
+
+/*
+1
+12
+123
+1234
+12345
+class MyCode{
     public static void main(String arg[])   
     {
         int i, n, j;
@@ -350,7 +356,8 @@
             System.out.println();
         }
     }
-}*/
+}
+     */
 
 
 /*
