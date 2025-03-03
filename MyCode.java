@@ -350,10 +350,39 @@ n=Integer.parseInt(in.readLine());
 }
     */
 
+/* 
+
+    1
+    12
+   123
+  1234
+ 12345
 
 
+import java.io.DataInputStream;
+class MyCode{
+    public static void main(String arg[])  throws Exception 
+    {
+        int i, n, j,p;
+DataInputStream in=new DataInputStream(System.in);
+      
+System.out.println("enter the number");
+n=Integer.parseInt(in.readLine());
+        
+       for (i=1;i<=n;i++) {
 
-    
+
+            for (j=1;j<=n-i;j++) 
+                
+                    System.out.print(" ");
+            for(p=1;p<=i;p++)
+            System.out.print(p);    
+            System.out.println();
+        }
+    }
+}
+*/
+
 
 
 /*
