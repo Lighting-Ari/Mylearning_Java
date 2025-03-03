@@ -234,7 +234,13 @@ class MyCode{
      */
  
 
+/*
 // pattren
+*
+**
+***
+****
+*****
 class MyCode{
     public static void main(String arg[])
     {
@@ -253,6 +259,7 @@ class MyCode{
         }
     }
 }
+     */
 
 
 
