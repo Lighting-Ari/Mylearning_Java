@@ -178,27 +178,32 @@
 
 
 
-// // partten
-// class MyCode{
-//     public static void main(String arg[])
-//     {
-//         int i, n, j;
+/*// partten
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+class MyCode{
+    public static void main(String arg[])
+    {
+        int i, n, j;
 
-//         n= Integer.valueOf(arg[0]);
-//         i= 1;
-//         j= 1;
+        n= Integer.valueOf(arg[0]);
+        i= 1;
+        j= 1;
         
-//        for (i=1;i<=n;i++) {
+       for (i=1;i<=n;i++) {
 
-//             for (j=1;j<n;j++) {
-//                 System.out.print(" "+j);
+            for (j=1;j<n;j++) {
+                System.out.print(" "+j);
                 
                 
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
+            }
+            System.out.println();
+        }
+    }
+}*/
 
 
 // // pattren
@@ -243,6 +248,8 @@
 //         }
 //     }
 // }
+
+
 
 // pattren
 // class MyCode{
