@@ -385,12 +385,12 @@ n=Integer.parseInt(in.readLine());
 
 
 
-/*
-     *
-    ***
-   *****
-  *******
- *********
+
+//      *
+//     ***
+//    *****
+//   *******
+//  *********
 
 
     import java.io.DataInputStream;
@@ -417,4 +417,4 @@ n=Integer.parseInt(in.readLine());
         }
     }
 
-     */
+     
