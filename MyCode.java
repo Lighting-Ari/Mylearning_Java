@@ -403,7 +403,7 @@ n=Integer.parseInt(in.readLine());
     System.out.println("enter the number");
     n=Integer.parseInt(in.readLine());
             
-   
+     
 
            for (i=1;i<=n;i++) {
                 for (j=1;j<=n-i;j++) // for priting space
