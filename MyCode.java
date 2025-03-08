@@ -494,6 +494,13 @@ n=Integer.parseInt(in.readLine());
 
 
 
+     /*
+     11111
+     22222
+     33333
+     44444
+     55555
+
 
     import java.io.DataInputStream;
     class MyCode {
@@ -516,3 +523,104 @@ n=Integer.parseInt(in.readLine());
     }
         
     }
+ */
+
+// AAAAA
+// BBBBB
+// CCCCC
+// DDDDD
+// EEEEE
+
+    
+
+    import java.io.DataInputStream;
+    class MyCode {
+    public static void main(String arg[]) throws Exception
+        {
+    int i,j, n , s;
+    DataInputStream in = new DataInputStream(System.in);
+
+    System.out.println("Please  Enter an Input");
+        n = Integer.valueOf(in.readLine());
+        s= 0;
+
+        for (i=1; i<=n; i++ ) {
+
+            for (j=1; j<=n; j++)
+            System.out.print(""+j);
+
+            System.out.println();
+        }
+
+    }
+        
+    }
+
+
+
+
+// ABCDE
+// ABCDE
+// ABCDE
+// ABCDE
+// ABCDE
+
+    
+
+import java.io.DataInputStream;
+class MyCode {
+public static void main(String arg[]) throws Exception
+    {
+int i,j, n , s;
+DataInputStream in = new DataInputStream(System.in);
+
+System.out.println("Please  Enter an Input");
+    n = Integer.valueOf(in.readLine());
+    s= 0;
+
+    for (i=1; i<=n; i++ ) {
+
+        for (j=1; j<=n; j++)
+        System.out.print("");
+
+        System.out.println();
+    }
+
+}
+    
+}
+
+
+
+// 55555
+// 44444
+// 33333
+// 22222
+// 11111
+
+    
+
+import java.io.DataInputStream;
+class MyCode {
+public static void main(String arg[]) throws Exception
+    {
+int i,j, n , s;
+DataInputStream in = new DataInputStream(System.in);
+
+System.out.println("Please  Enter an Input");
+    n = Integer.valueOf(in.readLine());
+    s= 0;
+
+    for (i=1; i<=n; i++ ) {
+
+        for (j=1; j<=n; j++)
+
+
+        System.out.print(""+j);
+
+        System.out.println();
+    }
+
+}
+    
+}
