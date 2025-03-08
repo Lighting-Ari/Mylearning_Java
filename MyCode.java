@@ -392,7 +392,7 @@ n=Integer.parseInt(in.readLine());
 //   *******
 //  *********
 
-
+/*
     import java.io.DataInputStream;
     class MyCode{
         public static void main(String arg[])  throws Exception 
@@ -402,10 +402,8 @@ n=Integer.parseInt(in.readLine());
           
     System.out.println("enter the number");
     n=Integer.parseInt(in.readLine());
-            
-     
 
-           for (i=1;i<=n;i++) {
+           for (i=1;i<=n;i++) {              // for the row
                 for (j=1;j<=n-i;j++) // for priting space
                         System.out.print(" ");
 
@@ -417,4 +415,104 @@ n=Integer.parseInt(in.readLine());
         }
     }
 
-     
+*/
+
+
+
+// Pattren 
+// ****
+// ****
+// ****
+// ****
+/*
+    import java.io.DataInputStream;
+    class MyCode {
+    public static void main(String arg[]) throws Exception
+        {
+    int i,j, n , s;
+    DataInputStream in = new DataInputStream(System.in);
+
+    System.out.println("Please  Enter an Input");
+        n = Integer.valueOf(in.readLine());
+
+        for (i=1; i<=n;i++ ) {
+
+            for (j=1; j<=n; j++)
+            System.out.print("*");
+
+
+            // for (s=1; s<=n; s++){   
+            // System.out.print("*");
+
+            //   for (j=2; j<=i; j=j+2)                              // for space
+            //   {  System.out.print(" ");        
+            // }
+            System.out.println();
+        }
+
+    }
+        
+    } */
+
+
+    /*
+    import java.io.DataInputStream;
+    class MyCode {
+    public static void main(String arg[]) throws Exception
+        {
+    int i,j, n , s;
+    DataInputStream in = new DataInputStream(System.in);
+
+    System.out.println("Please  Enter an Input");
+        n = Integer.valueOf(in.readLine());
+        s= 0;
+
+        for (i=1; i<=n; i++ ) {
+
+            
+            for (j=1; j<=(n-s); j++){
+            System.out.print("*");
+                s++;
+            
+
+        }
+
+
+            // for (s=1; s<=n; s++){   
+            // System.out.print("*");
+
+            //   for (j=2; j<=i; j=j+2)                              // for space
+            //   {  System.out.print(" ");        
+            // }
+            System.out.println();
+        }
+
+    }
+        
+    }
+     */
+
+
+
+
+    import java.io.DataInputStream;
+    class MyCode {
+    public static void main(String arg[]) throws Exception
+        {
+    int i,j, n , s;
+    DataInputStream in = new DataInputStream(System.in);
+
+    System.out.println("Please  Enter an Input");
+        n = Integer.valueOf(in.readLine());
+        s= 0;
+
+        for (i=1; i<=n; i++ ) {
+
+            for (j=1; j<=n; j++)
+            System.out.print(""+i);
+            System.out.println();
+        }
+
+    }
+        
+    }
