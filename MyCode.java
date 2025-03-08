@@ -513,11 +513,12 @@ n=Integer.parseInt(in.readLine());
         n = Integer.valueOf(in.readLine());
         s= 0;
 
-        for (i=1; i<=n; i++ ) {
+        for (i=1; i<=n; i++ ) {  // row when i is less than or equal to n it will be true.
 
-            for (j=1; j<=n; j++)
-            System.out.print(""+i);
-            System.out.println();
+            for (j=1; j<=n; j++) // collum when j is less than or equal to n it will be true.
+            System.out.print(""+i); // print the row number
+
+            System.out.println(); // print new line
         }
 
     }
@@ -525,13 +526,15 @@ n=Integer.parseInt(in.readLine());
     }
  */
 
+
+
 // AAAAA
 // BBBBB
 // CCCCC
 // DDDDD
 // EEEEE
 
-    
+/*   
 
     import java.io.DataInputStream;
     class MyCode {
@@ -556,16 +559,16 @@ n=Integer.parseInt(in.readLine());
         
     }
 
+     */
 
 
 
+/*
 // ABCDE
 // ABCDE
 // ABCDE
 // ABCDE
 // ABCDE
-
-    
 
 import java.io.DataInputStream;
 class MyCode {
@@ -589,8 +592,11 @@ System.out.println("Please  Enter an Input");
 }
     
 }
+ */
 
 
+
+/*
 
 // 55555
 // 44444
@@ -604,23 +610,67 @@ import java.io.DataInputStream;
 class MyCode {
 public static void main(String arg[]) throws Exception
     {
-int i,j, n , s;
+int i,j, n ;
 DataInputStream in = new DataInputStream(System.in);
 
 System.out.println("Please  Enter an Input");
-    n = Integer.valueOf(in.readLine());
-    s= 0;
-
-    for (i=1; i<=n; i++ ) {
-
-        for (j=1; j<=n; j++)
+    n = Integer.valueOf(in.readLine()); 5
 
 
-        System.out.print(""+j);
-
-        System.out.println();
+    for (i = n; i >= 1; i--) // Loop for rows  i = 5 ; 5>=1; 
+     { 
+        for (j = 1; j <= n; j++) { // Loop for columns 1<=5; 
+            System.out.print(i + " ");
+        }
+        System.out.println(); // Move to the next line
     }
 
+
+
+    }
 }
+ */
+
+import java.io.DataInputStream;
+
+class MyCode {
+    public static void main(String[] args) {
+    int i, j, n;
+
+        DataInputStream in = new DataInputStream(System.in);
+        System.out.println("Enter a number");
+
+        n = Integer.valueOf()
+
+
+    }
+
     
 }
+
+
+/*
+import java.io.DataInputStream;
+class MyCode {
+public static void main(String arg[]) throws Exception
+    {
+int i,j, n ;
+DataInputStream in = new DataInputStream(System.in);
+
+System.out.println("Please  Enter an Input");
+    n = Integer.valueOf(in.readLine()); 5
+
+
+    for (i = n; i >= 1; i--) // Loop for rows  i = 5 ; 5>=1; 
+     { 
+        for (j = 1; j <= n; j++) { // Loop for columns 1<=5; 
+            System.out.print(i + " ");
+        }
+        System.out.println(); // Move to the next line
+    }
+
+
+
+    }
+}
+     */
