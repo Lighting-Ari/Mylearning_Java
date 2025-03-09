@@ -625,8 +625,6 @@ System.out.println("Please  Enter an Input");
         System.out.println(); // Move to the next line
     }
 
-
-
     }
 }
  */
@@ -654,6 +652,9 @@ class MyCode {
 
 /*
 import java.io.DataInputStream;
+
+
+
 class MyCode {
 public static void main(String arg[]) throws Exception
     {
@@ -681,15 +682,18 @@ System.out.println("Please  Enter an Input");
 
 
 
-import java.io.DataInputStream;
+import java.io.*;
+
+import java.util.Scanner;
+
 class MyCode {
 public static void main(String arg[]) throws Exception
     {
 int i,j, n ;
-DataInputStream in = new DataInputStream(System.in);
+Scanner in=new Scanner(System.in);
 
 System.out.println("Please  Enter an Input");
-    n = Integer.valueOf(in.readLine()); 
+    n=in.nextInt();
     
     j= 1;
     System.out.println(n);
