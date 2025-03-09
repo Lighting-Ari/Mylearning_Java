@@ -631,6 +631,8 @@ System.out.println("Please  Enter an Input");
 }
  */
 
+ /*
+
 import java.io.DataInputStream;
 
 class MyCode {
@@ -640,13 +642,14 @@ class MyCode {
         DataInputStream in = new DataInputStream(System.in);
         System.out.println("Enter a number");
 
-        n = Integer.valueOf()
+        n = Integer.valueOf(System.)
 
 
     }
 
     
 }
+     */
 
 
 /*
@@ -674,3 +677,29 @@ System.out.println("Please  Enter an Input");
     }
 }
      */
+
+
+
+
+import java.io.DataInputStream;
+class MyCode {
+public static void main(String arg[]) throws Exception
+    {
+int i,j, n ;
+DataInputStream in = new DataInputStream(System.in);
+
+System.out.println("Please  Enter an Input");
+    n = Integer.valueOf(in.readLine()); 
+    
+    j= 1;
+    int k=2;
+
+    System.out.println(n);
+    for (i=n-1; i>=1;i-=2) {
+      
+        System.out.println(i);
+       }
+        
+
+    } 
+    }
