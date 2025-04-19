@@ -3,7 +3,6 @@ import java.util.Scanner;
 class MyClass
 {
 
-
 static void add(int x,int y)
 {
 int z;
